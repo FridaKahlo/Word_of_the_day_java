@@ -19,7 +19,7 @@ Requirements
 
 Sequence diagram
 ================
-::
+```
 					 +-------+                                       +------+          +--------+     
 					 ¦Program¦                                       ¦Server¦          ¦Database¦     
 					 +-------+                                       +------+          +--------+     
@@ -78,7 +78,7 @@ Sequence diagram
 					 +-------+                                       +------+          +--------+     
 					 ¦Program¦                                       ¦Server¦          ¦Database¦     
 					 +-------+                                       +------+          +--------+     
-
+```
 Source code of the flow chart
 -----------------------------
 
