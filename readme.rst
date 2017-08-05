@@ -84,10 +84,9 @@ Source code of the flow chart
 
 To transform this into an image go to http://planttext.com and paste the code below, and press the ``Refresh`` button:
 
-.. highlight::
+
 
 	@startuml
-
 	title "Word of the day"
 	==Retrieving the data==
 	Program -> Server: GET dexonline.ro
@@ -102,7 +101,7 @@ To transform this into an image go to http://planttext.com and paste the code be
 	Program->Program : image_url = Extract the url of the image
 	Program -> Server : GET image_url
 	Server -> Program : image
-
 	==storage==
 	Program -> Database : to do
 	@enduml
+	``::``
