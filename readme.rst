@@ -19,7 +19,7 @@ Requirements
 
 Sequence diagram
 ================
-```
+.. highlight::
 					 +-------+                                       +------+          +--------+     
 					 ¦Program¦                                       ¦Server¦          ¦Database¦     
 					 +-------+                                       +------+          +--------+     
@@ -78,13 +78,14 @@ Sequence diagram
 					 +-------+                                       +------+          +--------+     
 					 ¦Program¦                                       ¦Server¦          ¦Database¦     
 					 +-------+                                       +------+          +--------+     
-```
+
 Source code of the flow chart
 -----------------------------
 
 To transform this into an image go to http://planttext.com and paste the code below, and press the ``Refresh`` button:
 
-::
+.. highlight::
+
 	@startuml
 
 	title "Word of the day"
