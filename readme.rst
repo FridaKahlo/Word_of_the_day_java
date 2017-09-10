@@ -117,3 +117,11 @@ Xpath snippets
 - ``$x('//span[@class="def"]')`` - find the element that contains the entire definition
 - ``$x('//span[@class="def"]/b[1]/text()')`` - retrieve just the word itself
 - ``$x('//img[@class="img-responsive center-block"]/@src')`` - retrieve the URL of the image
+
+
+
+
+References
+----------
+
+- http://www.java2s.com/Tutorials/Java/XML_HTML_How_to/XPath/Parse_an_html_string_for_XML_tool_consume.htm
