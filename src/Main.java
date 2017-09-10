@@ -18,6 +18,17 @@ public class Main {
             String image_url = image_url_node.attr("src");
             System.out.println(image_url);
 
+         //   span[@class="def"]
+           // Element.text()
+
+            String query_entire_definition = "span[class=def]";
+            Elements entire_defintion_node = doc.select(query_entire_definition);
+            String entire_definition = entire_defintion_node.text();
+            System.out.println(entire_definition);
+
+            String word_of_the_day = entire_definition.split(",")[0];
+            System.out.println(word_of_the_day);
+
         }
         catch(Exception error) {
             System.out.println("An error occurred while retrieving the page\n" + error.toString());
