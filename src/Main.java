@@ -1,13 +1,8 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-/**
- * Created by Liuda on 8/5/2017.
- */
 
-//import
 public class Main {
     public static void main(String[] args){
         System.out.println("hello world");
